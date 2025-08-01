@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family:  'Poppins', sans-serif;
+}
+
+header.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  flex-wrap: wrap; 
+  gap: 10px;
+  background-color: sienna;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.logo img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  padding: 5px;
+  transform: translateX(8%);
+}
+
+.menu a,.TombolOur-Profile,
+.TombolPortofolio {
+  padding: 8px 12px;
+  border: 1px solid #000;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: grey;
+  border-color: grey;
+}
+
+.menu button:hover {
+  background-color: grey;
+  border: grey;
+}
+
+.menu button{
+  padding: 8px 12px;
+  border: 1px solid #000;
+  background-color: black;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  border-radius: 10px;
+}
+.banner {
+  width: 100%;          
+  max-height: 500px;     
+  object-fit: cover;   
+  box-shadow: 0  30px 32px rgba(0, 0, 0, 0.2); 
+}
+.kata{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  padding-left:2% ;
+  color: black;
+  max-width: 90%;
+  font-family:  'Poppins', sans-serif;
+}
+
+.H1 {
+    position: relative;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem)
+}
+
+.P1 {
+     font-size: clamp(0.9rem, 4vw, 1.2rem);
+}
+.h2,.h3,
+.h4,.h5,
+.h6,.h7{
+    width: 100%;
+      font-size: clamp(1.3rem, 2.2vw, 2rem);
+  line-height: 1.4;
+    text-align: center;
+    line-height: 1vw;
+}
+.p2,.p3,
+.p4{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  list-style: none;
+}
+
+.box-gambar {
+  display: flex;
+  justify-content: center;    
+  gap: 20px;                   
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.bok-link{
+transform: translateX(25px);
+}
+.bok-git{
+  transform: translateX(23px);
+}
+
+.FotoLink,
+.Fotogithub{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  padding: 5px;
+  object-fit: cover;
+  cursor: pointer;
+  align-items: center;
+}
+.Fotogithub{
+  height: 90px;
+  width: 90px;
+  transform: translateY(28px);
+}
+.label1,
+.label2{
+  width: 96%;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+.label1{
+   transform: translateY(-20px);
+}
+.label2{
+  transform: translate(-28px, 40px);
+}
+
+.Form {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  align-items: center;
+}
+
+.form-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-field {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-field h3 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.form-field input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-submit input[type="submit"] {
+  padding: 8px 12px;
+  border: 1px solid #000;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit input[type="submit"]:hover {
+  background-color: grey;
+  border-color: grey;
+}
+.hasil-inputan{
+  text-align: center;
+  border-radius: 20px;
+}
+
+.hasil-inputan {
+  margin-top: 30px;
+  padding: 10px 20px;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hasil-inputan textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-bottom {
+  background-color: sienna;
+  color:  white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  header.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .menu button {
+    flex: 1;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  .banner{
+    max-height: 250px;
+  }
+
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-top: 50px;
+  }
+}
+  .footer-bottom {
+    font-size: 13px;
+    padding: 12px 8px;
+  }

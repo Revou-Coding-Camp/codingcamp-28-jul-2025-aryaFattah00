@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="foto/logo.jpg" alt="">
+        </div>
+        <nav class="menu" id="navMenu">
+            <a href="#Home" class="TombolHome">Home</a>
+            <a href="#Our-profile"class="TombolOur-profile">Our Profile</a>
+            <a href="#Portofolio"class="TombolPortofolio">Portofolio</a>
+            <a href="#Message-Us"class="TombolMessage-Us">Message Us</a>
+        </nav>
+    </header>
+    <main class="Conten" id="Home">
+        <img class="banner" src="foto/C.jpg" alt="gambar baner">
+        <div class="kata">
+            <h1 class="H1">Hi <span id="namaUser">User</span>, Selamat Datang Di Website Kami</h1>
+            <p class="P1">Ini adalah website latihan pertama</p>
+        </div>
+    </main>
+    <div id="Our-profile">
+        <h2 class="h2">Profil Perusahaan</h2>
+        <h2 class="h3">Selamat datang di Inovatek Digital!</h2>
+        <p class="p2">Kami adalah perusahaan rintisan di bidang teknologi yang berkomitmen menghadirkan solusi digital inovatif untuk kebutuhan bisnis modern. 
+            Dengan semangat kreativitas dan teknologi mutakhir, kami mengembangkan aplikasi web, mobile, dan sistem berbasis cloud yang dirancang untuk
+            membantu perusahaan tumbuh lebih cepat dan efisien.Inovatek hadir untuk mendukung transformasi digital di Indonesia dan memberikan
+            pengalaman teknologi yang lebih baik bagi semua pengguna.</p>
+        <h2 class="h4">visi</h2>
+        <p class="p3">Membantu bisnis tumbuh melalui solusi digital yang mudah digunakan.</p>
+        <h2 class="h5">misi</h2>
+        <ul class="p4">
+            <li>Menciptakan solusi teknologi yang mudah diakses dan bermanfaat.</li>
+            <li>Mendukung pertumbuhan digital UMKM dan perusahaan besar.</li>
+            <li>Terus berinovasi dengan teknologi terbaru.</li>
+        </ul>
+    </div>
+    <div class="box-gambar" id="Portofolio">
+        <h2 class="h6">Portofolio Kami</h2>
+        <div class="bok-link">
+            <a href="https://www.linkedin.com/in/muhammad-arya-fattah-80082b362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="FotoLink" src="foto/Linkwebp.webp" alt=""></a>
+            <a href="https://www.linkedin.com/in/muhammad-arya-fattah-80082b362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <p class="label1">Kunjungi LinkedIn kami</p></a>
+        </div>
+        <div class="bok-git">
+            <a href="https://github.com/aryaFattah00"><img class="Fotogithub" src="foto/GitHub.png" alt=""></a>
+            <a href="https://github.com/aryaFattah00"> <p class="label2">Kunjungi Git Hub kami</p></a>
+        </div>
+    </div>
+    <form id="Message-Us">
+        <div class="Form">
+        <h2 class="h7">Message Us</h2>
+            <div class="form-grid">
+                <div class="form-field">
+                    <h3>Nama Anda</h3>
+                    <input type="text" id="nama" placeholder="Masukkan Nama">
+                </div>
+                <div class="form-field">
+                    <h3>Email Anda</h3>
+                    <input type="email" id="email" placeholder="Masukkan Email">
+                </div>
+                <div class="form-field">
+                    <h3>Tanggal Lahir Anda</h3>
+                    <input type="date" id="tanggal" placeholder="Masukkan Tanggal">
+                </div>
+                <div class="form-field">
+                    <h3>Nomor Anda</h3>
+                    <input type="text" id="nomor" placeholder="Masukkan Nomor">
+                </div>
+            </div>
+        </div>
+        <div class="form-submit">
+            <input class="TombolMessage-Us" value="kirim" type="submit">
+        </div>
+            
+        </div >
+            <div class="hasil-inputan">
+                <label for="pesananOutput">Pesan anda</label><br>
+                
+                <textarea name="" id="pesananOutput" placeholder="Pesan Yang anda inputkan" readonly></textarea>
+            </div>
+    </form>
+<footer class="footer-bottom">
+  <p>&copy; 2025 Muhammad arya fattah</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
